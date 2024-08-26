@@ -19,6 +19,15 @@ Scheme
 	Colors
 	{
 		// base colors
+		
+		"eWhite"	"255 255 255 255"
+		"eBlack"	"0 0 0 255"
+		"eBlack_"	"40 40 40 255"
+		"eGrey"		"90 90 90 255"
+		"eGrey_"	"130 130 130 255"
+		"eWhiteish__"	"170 170 170"
+		"Idk"	"255 0 255 255"
+		
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
@@ -248,14 +257,14 @@ Scheme
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
+		Button.TextColor				"Idk"
+		Button.BgColor					"eBlack"
+		Button.ArmedTextColor			"Idk"
+		Button.ArmedBgColor				"eBlack_"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.DepressedTextColor		"Idk"
+		Button.DepressedBgColor			"eBlack_"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -3078,6 +3087,27 @@ Scheme
 			}
 		}
 		
+		ThinIcons
+		{
+			"1"
+			{
+				"name"		"TF2 Icons Thin"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		TF2IconsThin
+		{
+			"1"
+			{
+				"name"		"TF2IconsThin"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
 	}
 
 	//
@@ -5892,7 +5922,7 @@ Scheme
 		"10"		"resource/linux_fonts/DejaVuSans.ttf"
 		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
 		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		"13"		"resource/linux_fonts/DejaVuSans-Obliquwe.ttf"
+		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
 		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
 		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
 		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
@@ -5903,5 +5933,12 @@ Scheme
 			"font" "resource/fonts/novem___.ttf"
 			"name" "November"
 		}
+		
+		"19"
+		{
+			"font" "resource/fonts/TF2IconsThin.otf"
+			"name" "TF2IconsThin"
+		}
+		
 	}
 }

@@ -53,24 +53,23 @@
 		"ypos"			"33"	[$WIN32]
 		"ypos_minmode"	"40"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
+		"wide"			"0"	[$WIN32]
 		"wide_minmode"	"40"	[$WIN32]
-		"tall"			"55"	[$WIN32]
+		"tall"			"0"	[$WIN32]
 		"tall_minmode"	"40"	[$WIN32]
 		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
-		"ypos"			"52"	[$WIN32]
+		"xpos"			"84"
+		"ypos"			"54"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"75"
-		"tall"			"50"
+		"wide"			"72"
+		"tall"			"52"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
@@ -95,6 +94,7 @@
 		"font"			"DefaultSmall"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -598,4 +598,40 @@
 		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
 	}
+	
+	// lol
+	
+	"NormalHPIndicator"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"NormalHPIndicator"
+		"xpos"			"64"
+		"ypos"			"24"
+		"zpos"			"4"
+		"wide"			"202"
+		"tall"			"112"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/skyhapi"
+		"scaleImage"	"0"
+		"alpha"	"1"
+	}
+	
+	"LowHPIndicator"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LowHPIndicator"
+		"xpos"			"64"
+		"ypos"			"44"
+		"zpos"			"4"
+		"wide"			"202"
+		"tall"			"112"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/skysad"
+		"scaleImage"	"0"
+		"alpha"	"0"
+		
+	}
+
 }
